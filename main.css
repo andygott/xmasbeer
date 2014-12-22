@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Typewriter';
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/typewriter.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/typewriter.eot?#iefix") format("embedded-opentype"), url("/fonts/typewriter.woff") format("woff"), url("/fonts/typewriter.ttf") format("truetype"), url("/fonts/typewriter.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+body {
+  font-family: Typewriter, serif;
+  text-align: center;
+  line-height: 1.2em;
+  color: #3c3228;
+  padding: 0;
+  margin: 0; }
+
+header {
+  background: #ede9d6; }
+  header .icon {
+    position: relative;
+    max-width: 60px;
+    margin: 0 auto 1em; }
+    header .icon svg {
+      max-width: 100%; }
+  header h1 {
+    max-width: 300px;
+    margin: 0 auto;
+    line-height: 1.2em; }
+
+.wrapper {
+  padding: 5%; }
+
+ul {
+  list-style: none;
+  font-size: 1.2em;
+  margin: 2em 0 5em;
+  padding: 0 0 2em 0;
+  border-top: 1px solid #ede9d6;
+  border-bottom: 1px solid #ede9d6; }
+  ul li {
+    padding: 0.4em 0;
+    border-bottom: 1px solid #ede9d6; }
+    ul li > span {
+      display: block;
+      max-width: 800px;
+      margin: 0 auto; }
+    ul li:hover {
+      background: #ede9d6; }
+    ul li.off {
+      text-decoration: line-through;
+      color: #beb4aa; }
+
+/*# sourceMappingURL=main.css.map */
