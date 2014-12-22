@@ -2,9 +2,9 @@
   font-family: 'Typewriter';
   font-weight: normal;
   font-style: normal;
-  src: url("/fonts/typewriter.eot");
+  src: url("fonts/typewriter.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/typewriter.eot?#iefix") format("embedded-opentype"), url("/fonts/typewriter.woff") format("woff"), url("/fonts/typewriter.ttf") format("truetype"), url("/fonts/typewriter.svg#svgFontName") format("svg");
+  src: url("fonts/typewriter.eot?#iefix") format("embedded-opentype"), url("fonts/typewriter.woff") format("woff"), url("fonts/typewriter.ttf") format("truetype"), url("fonts/typewriter.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 body {
   font-family: Typewriter, serif;
